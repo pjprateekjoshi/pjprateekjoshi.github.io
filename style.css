@@ -1,0 +1,127 @@
+body{
+	background-color: lightgray;
+	text-align: justify;
+}
+
+header{
+	width: 100%;
+	background-color: powderblue;
+	color: gray;
+	height: 5em;
+	text-align: center;
+}
+
+h1{
+	font-family: sans-serif;
+	padding: 20px;
+}
+
+h2{
+	font-family: sans-serif;
+	padding: 2px;
+}
+
+nav{
+	height: 2em;
+	background-color: black;
+	color: white;
+}
+
+nav li{
+	float: left;
+	list-style: none;
+	margin-left: 5%;
+	margin-top: 6px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: inherit;
+	border-radius: 5px;
+}
+
+nav li a{
+	text-decoration: none;
+	color: white;
+
+}
+
+nav li:hover{
+	background-color: blue;
+	cursor: pointer;
+}
+
+section{
+	width: 100%;
+	height: auto;
+	margin-top: 1%;
+	margin-left: 1%;
+	float: inline-end;
+	border-bottom: dotted 1px magenta;
+}
+
+article{
+	text-align: justify;
+	padding: 1%;
+	vertical-align: top;
+}
+
+aside{
+	background-color: darkgray	;
+	color: black;
+	max-width: 18%;
+}
+
+a{
+	text-decoration: none;
+	color: currentColor;
+}
+
+aside li{
+	list-style: none;
+	padding-left: 
+	padding-right: ;
+	margin-top: 8%;
+	padding-bottom: 8%;
+	border-bottom: solid gray 1px;
+	color: navy;
+	transition: 0.7s;
+}
+
+aside li:hover{
+	list-style: devanagari;
+	background-color: green;
+	color: black;
+}
+
+footer{
+	width: 100%;
+	background-color: powderblue;
+	color: gray;
+	height: 5em;
+	text-align: center;
+	float: inline-start;
+	border-top: black dotted 2px;
+}
+
+.container{
+	width: 80%;
+	height: 100%;
+	padding: 2%;
+	text-align: center;
+}
+
+.colby3{
+	width: 30%;
+	height: inherit;
+	border-right: 4px orange solid;
+	float: left;
+	overflow: hidden;
+	padding:1.4%;
+}
+
+nav .active{
+	background-color: blue;
+}
+
+aside .active{
+	
+}

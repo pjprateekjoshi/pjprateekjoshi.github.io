@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learning|Javascript</title>
+	<link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+<!-- Header -->
+	<header><h1>My generic header for Tabkarun</h1></header>
+
+<!-- Navbar -->
+	<nav>
+		<ul>
+			<a href="../index.html"><li>Home</li></a>
+			<a href="#"><li>About me</li></a>
+			<a href="../learning.html"><li>Learning</li></a>
+			<a class="active" href="../learnt.html"><li>Learnt</li></a>
+			<li>Contact</li>
+		</ul>
+	</nav>
+
+
+<section>
+	<button onclick="counter()">Click me</button>
+	<button onclick="reset()">Reset</button>
+	<p>
+		This button is clicked <span id="num">0</span> times.
+	</p>
+</section>
+
+<section>
+	<button onclick="onoff()">Switch color</button>
+	<p id="swich">
+		Change the background color right now, but there's no going back!
+	</p>
+</section>
+
+<section>
+	<button onclick="autosw()">Start show! (crash button)</button>
+	<p id="popcorn">
+		Also, you may start the show instead and grab popcorn. I need to learn this fast!!
+	</p>
+</section>
+<!-- footer -->
+<footer>
+	<h2>tab karunga Copyright &copy; Prateek Joshi 2018</h2>
+</footer>
+
+</body>
+
+<script type="text/javascript">
+	var x=0
+	var n=0;
+	function counter(){
+		document.getElementById('num').innerHTML= ++n;
+	}
+
+	function reset() {
+		n=0;
+		document.getElementById('num').innerHTML=n;
+	}
+
+	function onoff() {
+		if(n===0){
+			document.getElementById('swich').style.backgroundColor="pink";
+			n=1;
+		}else{
+			document.getElementById('swich').style.backgroundColor="orange";	
+			n=0;		
+		}
+	}
+/*
+	function autosw() {
+		while(1){
+			setTimeout(pink(),500);
+		}
+
+		function pink(){
+			document.getElementById('popcorn').style.backgroundColor="pink";
+			setTimeout(orange(),500);
+		}
+
+		function orange() {
+			document.getElementById('popcorn').style.backgroundColor="orange";
+			return();
+		}
+
+	}*/
+
+</script>
+</html>

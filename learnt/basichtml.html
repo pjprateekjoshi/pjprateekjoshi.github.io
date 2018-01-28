@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learnt|Basic Forms</title>
+	<link rel="stylesheet" type="text/css" href="../style.css">
+
+	<style type="text/css">
+		input{
+			margin-bottom: 3%;
+		}
+		form label{
+			margin-bottom: 3%;
+		}
+	</style>
+
+</head>
+<body>
+<!-- Header -->
+	<header><h1>My generic header for Tabkarun</h1></header>
+
+<!-- Navbar -->
+	<nav>
+		<ul>
+			<a href="../index.html"><li>Home</li></a>
+			<a href="#"><li>About me</li></a>
+			<a href="../learning.html"><li>Learning</li></a>
+			<a class="active" href="../learnt.html"><li>Learnt</li></a>
+			<li>Contact</li>
+		</ul>
+	</nav>
+
+
+	<!-- Section -->
+<section>
+<h2>Forms:</h2>
+	<article>
+		<form>
+				<label>Input type, text:</label>
+				<input type="text" name="" value="default text">
+
+				<input type="reset" name="">(type="reset")And not just this, it resets every element on the form below.<br>
+
+				<label>Input type radio, only one of the many having same name will be selected:</label><br>
+				<input type="radio" name="this">Input 1, falls in different input
+				<input type="radio" name="this">Input 2, falls in different input
+				<input type="radio" name="that">Different name, falls in different input<br>
+
+				<label>No input tag used, but select an option:</label><br>
+				<select>
+					<option>Option1</option>
+					<option>Option2</option>
+					<option>Option3</option>
+					<option>Option4</option>
+				</select><br>
+				<label>Same thing with size=3:</label><br>
+				<select size="3">
+					<option>Option1</option>
+					<option>Option2</option>
+					<option>Option3</option>
+					<option>Option4</option>
+				</select><br>
+
+				<label>Press ctrl and select multiple(default size 4):</label><br>
+				<select multiple size="3">
+					<option>Check 1</option>
+					<option>Check 2</option>
+					<option>Check 3</option>
+					<option>Check 4</option>
+					<option>Check 5</option>
+				</select><br><br>
+
+				<label>Is this a better way to select multiple:</label><br>
+				<input type="checkbox" name="Better" value="">Better<br>
+				<input type="checkbox" name="Definetely Better" value="">Definitely Better<br>
+				<input type="checkbox" name="Worse" value="">Worse<br>
+				<input type="checkbox" name="Depends" value="">Depends on the back end/database demands<br>
+				<input type="checkbox" name="All" value="">All of the above :D<br>
+
+				<label>Comment here in the textarea:</label>
+				<textarea name=""></textarea><br><br>
+
+				<button>This can trigger any js function</button><br><br>
+
+				<label>This is datalist, combination of select and text input, unstraight syntax:</label><br>
+				<input list="browsers">
+				<datalist id="browsers">
+					<option value="Option1"></option>
+					<option value="Option2"></option>
+					<option value="Option3"></option>
+					<option value="Option4"></option>
+				</datalist>
+
+				<br><br>
+				<p>About tag output : https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_output</p>
+				
+				<label>Range:</label><br>
+				<input type="range" name="" value="100"><br>
+				<input type="submit" name="">
+		</form>
+	</article>
+	
+	<article>
+		<h4>Other input types (HTML5):</h4>
+		<ul>
+			<li>color</li>
+			<li>date</li>
+			<li>datetime-local</li>
+			<li>email</li>
+			<li>month</li>
+			<li>number</li>
+			<li>search</li>
+			<li>tel</li>
+			<li>time</li>
+			<li>url</li>
+			<li>week</li>
+
+		</ul>
+	</article>
+
+</section>
+
+<!-- Footer -->
+<footer>
+	<h2>tab karunga Copyright &copy; Prateek Joshi 2018</h2>
+</footer>
+
+</body>
+</html>

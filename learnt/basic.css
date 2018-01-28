@@ -1,0 +1,17 @@
+.slidemenu{
+	transition: 1s;
+	height: 3em;
+	width: 15%;
+	margin: 0 0 5px -7%;
+	background-color: tomato;
+	border-radius: 6px;
+	border-bottom: 3px solid lightgreen;
+	opacity: 0.5;
+	text-align: left;
+}
+
+.slidemenu:hover{
+	margin-left: 0;
+	border-bottom: 3px solid green;
+	opacity: 1;
+}
