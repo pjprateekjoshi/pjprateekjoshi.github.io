@@ -92,9 +92,9 @@
 						document.getElementById('butt4').style.backgroundColor="hotpink";
 						document.getElementById('butt2').style.backgroundColor="hotpink";
 						document.getElementById('butt1').style.backgroundColor="hotpink";
+						document.getElementById('pagefour').style.display="none";
 						break;
 					}			
-						document.getElementById('pagefour').style.display="none";
 		}
 	}
 
