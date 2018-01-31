@@ -137,3 +137,23 @@ aside .active{
 	text-align: center;
 }
 
+.onhover{
+	z-index: -1;
+	display: none;
+}
+
+.onhover:hover{
+	display: block;
+	z-index: 0;
+}
+
+.offhover{
+	display: inline-block;
+	z-index: 2;
+}
+
+.offhover:hover{
+	display: none;
+	z-index: 5;
+	transition: 5s;
+}
