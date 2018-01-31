@@ -125,3 +125,13 @@ nav .active{
 aside .active{
 	
 }
+
+.imgrow{
+	height: 25em;
+	width:100%;
+}
+
+.row{
+	height: 15em;
+	width: 100%;
+}
