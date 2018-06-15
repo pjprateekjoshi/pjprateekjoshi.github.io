@@ -1,3 +1,12 @@
 .whitefont{
   color: white !important;
 }
+
+a .nav-link{
+  margin: 0 4% 0 4%;
+  padding: 0 4% 0 4%;
+}
+
+.navbar-brand{
+  margin: 0 4% 0 0;
+}
